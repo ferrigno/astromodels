@@ -26,7 +26,7 @@ class My_build_ext(_build_ext):
 
         # Prevent numpy from thinking it is still in its setup process:
 
-        __builtins__.__NUMPY_SETUP__ = False
+        #__builtins__.__NUMPY_SETUP__ = False
 
         import numpy
 
